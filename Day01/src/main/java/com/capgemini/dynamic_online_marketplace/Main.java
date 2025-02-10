@@ -21,22 +21,33 @@ public class Main {
         ProductCatalog<ClothingCategory> clothCatalog = new ProductCatalog<>();
         ProductCatalog<GadgetsCategory> gadgetCatalog = new ProductCatalog<>();
 
+        //add books to bookCatalog
         bookCatalog.addProduct(book1);
         bookCatalog.addProduct(book2);
 
+        //add books to clothCatalog
         clothCatalog.addProduct(shirt);
         clothCatalog.addProduct(jeans);
 
+        //add books to gadgetCatalog
         gadgetCatalog.addProduct(phone);
         gadgetCatalog.addProduct(tablet);
 
+        //print books
         System.out.println("--------Book catalog-------");
         bookCatalog.displayCatalog();
+        System.out.println("Discount of 10% on book1");
+        MarketPlaceUtility.applyDiscount(book1,50);
 
+        System.out.println();
+
+        //print clothes
         System.out.println("--------Cloth catalog-------");
         clothCatalog.displayCatalog();
 
+        //print gadgets
         System.out.println("--------Gadget catalog-------");
         gadgetCatalog.displayCatalog();
+
     }
 }
