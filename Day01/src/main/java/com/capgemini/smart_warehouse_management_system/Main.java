@@ -4,9 +4,9 @@ public class Main {
     public static void main(String[] args) {
 
         //create an object of class
-        Storage<WarehouseItem> electronicStorage = new Storage<>();
-        Storage<WarehouseItem> groceryStorage = new Storage<>();
-        Storage<WarehouseItem> furnitureStorage = new Storage<>();
+        Storage<Electronics> electronicStorage = new Storage<>();
+        Storage<Groceries> groceryStorage = new Storage<>();
+        Storage<Furniture> furnitureStorage = new Storage<>();
 
         //add electronic items to electronic storage
         electronicStorage.addItem(new Electronics("Laptop", "MSI", 69999));
