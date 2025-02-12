@@ -1,6 +1,5 @@
 package com.capgemini.file_handling_read_and_write_a_text_file;
 
-import com.capgemini.file_handling_read_and_write_a_text_file.ReadInputFileAndWriteDestination;
 import org.junit.jupiter.api.Test;
 
 public class ReadInputFileAndWriteDestinationTest {
