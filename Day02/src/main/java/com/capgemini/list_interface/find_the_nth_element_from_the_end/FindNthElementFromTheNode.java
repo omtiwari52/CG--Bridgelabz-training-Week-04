@@ -4,7 +4,7 @@ import java.util.*;
 
 public class FindNthElementFromTheNode {
 
-    //method to find Nth node of a linked list from last 
+    //method to find Nth node of a linked list from last
     public static char findNthNode(LinkedList<Character> list, int n){
 
         if(list == null || n < 0){
