@@ -7,7 +7,7 @@ public class Main {
         String filePath = "src/main/java/com/capgemini/data_streams_store_and_retrieve_primitive_data/student_data.txt";  // Binary file to store student data
 
         // Creating a sample student object
-        Student student = new Student(101, "John Doe", 3.75);
+        Student student = new Student(101, "Om Tiwari", 4.75);
 
         // Writing student data to a binary file using DataOutputStream
         try (DataOutputStream dos = new DataOutputStream(new FileOutputStream(filePath))) {
