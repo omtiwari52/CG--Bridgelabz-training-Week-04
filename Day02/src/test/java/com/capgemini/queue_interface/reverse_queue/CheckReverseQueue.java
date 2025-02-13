@@ -1,7 +1,5 @@
 package com.capgemini.queue_interface.reverse_queue;
 
-import com.capgemini.queue_interface.reverse_queue.ReverseQueue;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
