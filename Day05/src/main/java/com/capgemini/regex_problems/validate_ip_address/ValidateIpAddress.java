@@ -1,4 +1,4 @@
-package com.capgemini.regex.validate_ip_address;
+package com.capgemini.regex_problems.validate_ip_address;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

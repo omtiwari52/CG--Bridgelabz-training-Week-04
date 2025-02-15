@@ -1,4 +1,4 @@
-package com.capgemini.regex.validate_ip_address;
+package com.capgemini.regex_problems.validate_ip_address;
 
 import java.io.BufferedReader;
 import java.io.IOException;
