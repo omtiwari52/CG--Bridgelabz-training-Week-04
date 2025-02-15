@@ -1,4 +1,4 @@
-package com.capgemini.regex.repeating_word_in_a_sentence;
+package com.capgemini.regex_problems.repeating_word_in_a_sentence;
 
 
 import java.io.BufferedReader;
