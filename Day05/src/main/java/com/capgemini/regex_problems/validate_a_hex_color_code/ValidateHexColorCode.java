@@ -8,7 +8,7 @@ public class ValidateHexColorCode {
     //method to validate hex color code
     public static boolean isValid(String colorCode){
 
-        String regex = "^#[a-fA-F0-9]{6}$";
+        String regex = "^#[A-Fa-f0-9]{6}$";
 
 
         Pattern pattern = Pattern.compile(regex);
