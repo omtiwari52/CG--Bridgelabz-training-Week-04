@@ -1,4 +1,4 @@
-package com.capgemini.regex.extract_programming_language_from_text;
+package com.capgemini.regex_problems.extract_programming_language_from_text;
 
 
 import java.io.BufferedReader;
