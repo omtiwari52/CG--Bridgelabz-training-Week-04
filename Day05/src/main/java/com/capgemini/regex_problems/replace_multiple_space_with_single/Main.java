@@ -1,4 +1,4 @@
-package com.capgemini.regex.replace_multiple_space_with_single;
+package com.capgemini.regex_problems.replace_multiple_space_with_single;
 
 
 import java.io.BufferedReader;
