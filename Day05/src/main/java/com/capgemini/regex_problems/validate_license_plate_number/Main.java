@@ -1,4 +1,4 @@
-package com.capgemini.regex.validate_license_plate_number;
+package com.capgemini.regex_problems.validate_license_plate_number;
 
 import java.io.BufferedReader;
 import java.io.IOException;
