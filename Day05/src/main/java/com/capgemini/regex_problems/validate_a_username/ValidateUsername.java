@@ -1,6 +1,5 @@
 package com.capgemini.regex_problems.validate_a_username;
 
-import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
