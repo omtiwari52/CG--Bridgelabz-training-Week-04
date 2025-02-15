@@ -1,6 +1,5 @@
-package com.capgemini.regex.extract_dates_from_text;
+package com.capgemini.regex_problems.extract_dates_from_text;
 
-import com.capgemini.regex.extract_emails_from_text.ExtractEmailAddress;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
