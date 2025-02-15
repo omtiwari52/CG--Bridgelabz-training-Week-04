@@ -1,6 +1,6 @@
-package com.capgemini.regex.validate_licese_plate_number;
+package com.capgemini.regex_problems.validate_licese_plate_number;
 
-import com.capgemini.regex.validate_license_plate_number.ValidateRegex;
+import com.capgemini.regex_problems.validate_license_plate_number.ValidateRegex;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
