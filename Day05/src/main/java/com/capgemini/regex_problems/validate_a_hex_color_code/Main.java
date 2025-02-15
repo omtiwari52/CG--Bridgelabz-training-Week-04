@@ -16,11 +16,7 @@ public class Main {
             System.out.print("Enter the color code: ");
             String colorCode = br.readLine().trim();
 
-            if(ValidateUsername.isValid(colorCode)){
-                System.out.println("Valid");
-            } else if (!ValidateUsername.isValid(colorCode)) {
-                System.out.println("InValid");
-            }
+            System.out.println((ValidateHexColorCode.isValid(colorCode) ? "Valid" : "Invalid"));
         }catch (IOException e){
             System.out.println("Exception caught "+e.getMessage());
         }
