@@ -1,4 +1,4 @@
-package com.capgemini.regex.extract_emails_from_text;
+package com.capgemini.regex_problems.extract_emails_from_text;
 
 import java.util.ArrayList;
 import java.util.regex.Matcher;
