@@ -3,7 +3,6 @@ package com.capgemini.reflection.intermediate_problems.dynamic_method_invocation
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import java.lang.reflect.Method;
-import java.sql.SQLOutput;
 
 import static org.junit.jupiter.api.Assertions.*;
 
